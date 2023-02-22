@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="WindowTest" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="102,264,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="102,264,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="170,264,0,0" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="233,274,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="111,240,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="298,240,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="488,240,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="233,264,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Margin="111,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Margin="298,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="t3" HorizontalAlignment="Left" Margin="488,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

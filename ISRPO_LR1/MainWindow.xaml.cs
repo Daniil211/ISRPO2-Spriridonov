@@ -24,5 +24,12 @@ namespace ISRPO_LR1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WindowTest wt = new WindowTest();
+            wt.Show();
+
+        }
     }
 }

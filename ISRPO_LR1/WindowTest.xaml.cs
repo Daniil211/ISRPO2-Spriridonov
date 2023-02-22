@@ -23,5 +23,10 @@ namespace ISRPO_LR1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            t3.Text = t1.Text + t2.Text; 
+        }
     }
 }
